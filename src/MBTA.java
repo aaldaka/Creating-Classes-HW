@@ -6,8 +6,8 @@ import java.util.Map;
 public class MBTA {
     static HashMap<String, ArrayList<String>> stops = new HashMap<>();
     static ArrayList<String> redStops = new ArrayList<>(Arrays.asList("South Station", "Park Street", "Kendall", "Central", "Harvard", "Porter", "Davis", "Alewife"));
-    static ArrayList<String> greenStops = new ArrayList<>(Arrays.asList("Government Cneter", "Park Street", "Bolyston", "Arlington", "Copley", "Hynes", "Kenmore"));
-    static ArrayList<String> orangeStops = new ArrayList<>(Arrays.asList("North Station", "Haymarket", "Park Street", "State", "Downtown crossing", "Chinatown", "Back bay", "Forest Hills"));
+    static ArrayList<String> greenStops = new ArrayList<>(Arrays.asList("Government Center", "Park Street", "Boylston", "Arlington", "Copley", "Hynes", "Kenmore"));
+    static ArrayList<String> orangeStops = new ArrayList<>(Arrays.asList("North Station", "Haymarket", "Park Street", "State", "Downtown Crossing", "Chinatown", "Back Bay", "Forest Hills"));
 
     static { // so it belongs to the class, no need to create an object to do this
         stops.putAll(Map.of(
